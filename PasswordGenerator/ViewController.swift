@@ -11,28 +11,20 @@ import UIKit
 class ViewController: UIViewController
 {
     @IBOutlet weak var myNumberOfCharacters: UITextField!
- 
     @IBOutlet weak var myCharacters: UISwitch!
-    
     @IBOutlet weak var myNumbers: UISwitch!
     @IBOutlet weak var mySymbols: UISwitch!
     @IBOutlet weak var myCapitalization: UISwitch!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
-       
     }
-
-    @IBOutlet weak var mySavePreferences: UIButton!
-    {
-        myCharacters.textInputMode
-        myNumbers.textInputMode
-        mySymbols.textInputMode
-        myCapitalization.textInputMode
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let dvc = segue.destination
         
     }
-    
-    
     
     //random number generation
     let randomOne = arc4random_uniform(60)
@@ -45,6 +37,7 @@ class ViewController: UIViewController
     let randomEight = arc4random_uniform(29)
     let randomNine = arc4random_uniform(67)
     let randomTen = arc4random_uniform(62)
+    
     
 }
 

@@ -99,7 +99,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV0-Lt-cGI">
-                                <frame key="frameInset" minX="93" minY="594" width="94" height="53"/>
+                                <frame key="frameInset" minX="130" minY="561" width="94" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
@@ -110,15 +110,6 @@
                                     <segue destination="eiM-8m-fH9" kind="show" id="Mj9-lF-vbs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAM-xC-See">
-                                <frame key="frameInset" minX="34" minY="505" width="241" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Save Preferences">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -127,7 +118,6 @@
                         <outlet property="myCharacters" destination="jAI-IQ-O9f" id="aHZ-N1-rkt"/>
                         <outlet property="myNumberOfCharacters" destination="2go-MG-Lfg" id="Enx-dP-kQQ"/>
                         <outlet property="myNumbers" destination="vO4-Ge-7MV" id="L2B-zy-YnY"/>
-                        <outlet property="mySavePreferences" destination="GAM-xC-See" id="h3B-7z-dib"/>
                         <outlet property="mySymbols" destination="spD-bd-v1y" id="qXY-LW-3Mu"/>
                     </connections>
                 </viewController>
@@ -135,10 +125,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--Password View Controller-->
         <scene sceneID="pRv-23-hVq">
             <objects>
-                <viewController id="eiM-8m-fH9" sceneMemberID="viewController">
+                <viewController id="eiM-8m-fH9" customClass="PasswordViewController" customModule="PasswordGenerator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ogu-a8-8uR"/>
                         <viewControllerLayoutGuide type="bottom" id="zYc-eD-vqx"/>

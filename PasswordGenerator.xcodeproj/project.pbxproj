@@ -14,6 +14,7 @@
 		3FE282741DF5CA970096AE9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE282721DF5CA970096AE9A /* LaunchScreen.storyboard */; };
 		3FE2827F1DF5CA970096AE9A /* PasswordGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2827E1DF5CA970096AE9A /* PasswordGeneratorTests.swift */; };
 		3FE2828A1DF5CA970096AE9A /* PasswordGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE282891DF5CA970096AE9A /* PasswordGeneratorUITests.swift */; };
+		3FE282981DF9C67C0096AE9A /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE282971DF9C67C0096AE9A /* PasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FE282851DF5CA970096AE9A /* PasswordGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE282891DF5CA970096AE9A /* PasswordGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneratorUITests.swift; sourceTree = "<group>"; };
 		3FE2828B1DF5CA970096AE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE282971DF9C67C0096AE9A /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				3FE282691DF5CA970096AE9A /* AppDelegate.swift */,
-				3FE2826B1DF5CA970096AE9A /* ViewController.swift */,
 				3FE2826D1DF5CA970096AE9A /* Main.storyboard */,
+				3FE2826B1DF5CA970096AE9A /* ViewController.swift */,
+				3FE282971DF9C67C0096AE9A /* PasswordViewController.swift */,
 				3FE282701DF5CA970096AE9A /* Assets.xcassets */,
 				3FE282721DF5CA970096AE9A /* LaunchScreen.storyboard */,
 				3FE282751DF5CA970096AE9A /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				3FE2826C1DF5CA970096AE9A /* ViewController.swift in Sources */,
 				3FE2826A1DF5CA970096AE9A /* AppDelegate.swift in Sources */,
+				3FE282981DF9C67C0096AE9A /* PasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				3FE282901DF5CA970096AE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE282911DF5CA970096AE9A /* Build configuration list for PBXNativeTarget "PasswordGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				3FE282931DF5CA970096AE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE282941DF5CA970096AE9A /* Build configuration list for PBXNativeTarget "PasswordGeneratorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				3FE282961DF5CA970096AE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
